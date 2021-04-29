@@ -6,7 +6,7 @@ tar zxvf node_exporter-*
 cp node_exporter-*/node_exporter /usr/local/bin
 rm -rf node_exporter-*
 
-if [ ${type} == 1 ]
+if [ ${type} == '1' ]
 then
 addgroup node_exporter
 adduser --no-create-home --shell /bin/false node_exporter -G node_exporter
