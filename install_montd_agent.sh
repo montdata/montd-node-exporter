@@ -1,3 +1,4 @@
+groupadd node_exporter
 useradd --no-create-home --shell /bin/false node_exporter
 curl -s https://api.github.com/repos/prometheus/node_exporter/releases/latest | grep browser_download_url | grep linux-amd64 | cut -d '"' -f 4 | wget -qi -
 tar zxvf node_exporter-*
