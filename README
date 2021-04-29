@@ -1,2 +1,5 @@
 # montd-agent
 Montdata Prometheus Node Exporter
+
+# Installation
+curl -s https://raw.githubusercontent.com/montdata/montd-node-exporter/master/install_montd_agent.sh | /bin/sh
